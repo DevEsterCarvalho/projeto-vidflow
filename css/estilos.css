@@ -194,6 +194,112 @@ body {
     background-color: var(--branco);
 }
 
+/*SEÇÃO MENU*/
+
+.menu__container ul {
+    border-bottom: 1px solid var(--azul-medio);
+}
+
+.menu__container ul:last-child {
+    border-bottom: none;
+}
+
+.titulo, .menu__itens {
+    font-size: 14px;
+}
+
+.menu__itens {
+    font-size: 14px;
+    background-color: var(--branco);
+    color: var(--cinza-escuro);
+}
+
+.icone__item {
+    size: 24px;
+}
+.icone__inicio {
+    content: url(../img/sidebar/home.png);
+}
+
+.icone__explorar{
+    content: url(../img/sidebar/explore.png);
+}
+
+.icone__shorts {
+    content: url(../img/sidebar/airplay.png);
+}
+
+.icone__inscricoes {
+    content: url(../img/sidebar/subscriptions.png);
+}
+
+.icone__biblioteca {
+    content: url(../img/sidebar/video_library.png);
+}
+
+.icone__historico {
+    content: url(../img/sidebar/history.png);
+}
+
+.icone__biblioteca {
+    content: url(../img/sidebar/video_library.png);
+}
+
+.icone__relogio {
+    content: url(../img/sidebar/history_toggle_off.png);
+}
+
+.icone__like {
+    content: url(../img/sidebar/thumb_up_alt.png);
+}
+
+.icone__alura {
+    content: url(../img/sidebar/Avatar_Alura.png);
+}
+
+.icone__gaveta {
+    content: url(../img/sidebar/Avatar_Gaveta.png);
+}
+
+.icone__rafaella-ballerini {
+    content: url(../img/sidebar/Avatar_Rafa.png);
+}
+
+.icone__atila-iamarino {
+    content: url(../img/sidebar/Avatar_Atila.png);
+}
+
+
+.icone__mario-souto  {
+    content: url(../img/sidebar/Avatar_Souto.png);
+}
+
+.icone__jovem-nerd {
+    content: url(../img/sidebar/Avatar_Jovem_Nerd.png);
+}
+
+.icone__felipe-deschamps {
+    content: url(../img/sidebar/Avatar_Deschamps.png);
+}
+
+.icone__mostrar {
+    content: url(../img/sidebar/keyboard_arrow_down.png);
+}
+
+.icone__videos-premium {
+    content: url(../img/sidebar/ondemand_video.png);
+}
+
+.icone__filmes {
+    content: url(../img/sidebar/movie.png);
+}
+
+.icone__jogos {
+    content: url(../img/sidebar/sports_esports.png);
+}
+
+
+
 /* SEÇÃO VÍDEOS */
 
 .videos__container {
@@ -232,6 +338,20 @@ iframe{
 
     body {
         height: 100vh;
+    }
+
+    /* MENU lATERAL */
+
+    .menu__container {
+        font-size: 16px;
+    }
+
+    .menu__lista {
+        padding-top: 15px;
+    }
+
+    .menu__lista li {
+        width: 100%;
     }
 
     /* ESTILOS DA SECAO SUPERIOR */
